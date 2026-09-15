@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.env
+.env.local
+*.pem
+*.key
+.DS_Store
+# never commit live credentials or DIDs mistaken for secrets
+secrets/
+.t3n/

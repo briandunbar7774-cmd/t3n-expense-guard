@@ -1,0 +1,37 @@
+{
+  "name": "t3n-expense-guard",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Enterprise Expense Guard — trusted T3N agent skeleton (DID auth, agent card, policy check stubs) for Terminal 3 / Superteam challenge",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "auth": "tsx src/auth-quickstart.ts",
+    "agent:whoami": "tsx src/agent-whoami.ts",
+    "agent:card": "tsx src/print-agent-card.ts",
+    "demo:policy": "tsx src/demo-policy-check.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@terminal3/t3n-sdk": "5.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/briandunbar7774-cmd/t3n-expense-guard"
+  },
+  "keywords": [
+    "t3n",
+    "terminal3",
+    "tee",
+    "enterprise-agent",
+    "did"
+  ]
+}
